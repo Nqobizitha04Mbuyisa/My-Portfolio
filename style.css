@@ -265,15 +265,21 @@ section {
     border-radius: 20px;
     font-weight: 500;
 }
-
 /* Education */
+:root {
+    --primary: #007bff;
+    --text-light: #888;
+    --shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
 .education-content {
     max-width: 800px;
-    margin: 0 auto;
+    margin: 2rem auto;
     background-color: white;
     padding: 2rem;
     border-radius: 10px;
     box-shadow: var(--shadow);
+    display: block; /* Ensure visible */
 }
 
 .education-item {
@@ -297,6 +303,13 @@ section {
     color: var(--text-light);
     font-style: italic;
     margin-bottom: 0.5rem;
+}
+
+/* Container styling (if missing) */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 /* Footer */
@@ -374,5 +387,6 @@ footer {
         display: none;
     }
 }
+
 
 
