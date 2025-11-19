@@ -126,7 +126,7 @@ nav ul li a:hover {
 
 /* Hero Section */
 .hero {
-    background: url('Image/Background.jpeg') no-repeat center center/cover, linear-gradient(135deg, var(--primary), var(--secondary));
+    background: url('Background.jpeg') no-repeat center center/cover, linear-gradient(135deg, var(--primary), var(--secondary));
     position: relative;
     color: white;
     padding: 5rem 0;
@@ -372,3 +372,4 @@ copyright {
         display: none;
     }
 }
+
