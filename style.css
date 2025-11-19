@@ -155,7 +155,7 @@ nav ul li a:hover {
 
 /* Sections */
 section {
-    padding: 3rem 0;
+    padding: 2rem 0;
 }
 
 .section-title {
@@ -182,7 +182,7 @@ section {
     background-color: var(--secondary);
 }
 
-/* About Section - FIXED */
+/* About Section */
 .about-content {
     display: flex;
     flex-wrap: wrap;
@@ -199,7 +199,7 @@ section {
     flex: 1;
     min-width: 250px;
     margin-top: 0;
-    margin-left: 80px;
+    margin-left: 120px;
 }
 
 .profile-img {
@@ -227,10 +227,10 @@ section {
     margin-bottom: 0.5rem;
 }
 
-/* Skills Section - FIXED */
+/* Skills Section */
 #skills {
-    margin-top: 30px;
-    padding: 2rem 0;
+    margin-top: 10px;
+    padding: 1rem 0;
 }
 
 .skills-container {
@@ -356,6 +356,10 @@ footer {
     .about-content {
         flex-direction: column;
         text-align: center;
+    }
+
+    .personal-info {
+        margin-left: 0;
     }
 
     .contact-content {
