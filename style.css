@@ -126,13 +126,18 @@ nav ul li a:hover {
 
 /* Hero Section */
 .hero {
-    background: url('Background.jpeg') no-repeat center center/cover, linear-gradient(135deg, var(--primary), var(--secondary));
+    background-image: url("Background.jpeg"), 
+                      linear-gradient(135deg, var(--primary), var(--secondary));
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     position: relative;
     color: white;
     padding: 5rem 0;
     text-align: center;
     animation: zoomIn 1.5s ease;
 }
+
 
 @keyframes zoomIn {
     0% { transform: scale(1.05); opacity: 0; }
@@ -372,4 +377,5 @@ copyright {
         display: none;
     }
 }
+
 
