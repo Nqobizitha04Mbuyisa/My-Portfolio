@@ -386,7 +386,27 @@ footer {
     nav {
         display: none;
     }
+} 
+
+/* Degree completion image styling */
+.DC-img {
+    display: block;
+    max-width: 260px;
+    width: 100%;
+    height: auto;
+    margin: 15px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    border: 1px solid #ddd;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
+.DC-img:hover {
+    transform: scale(1.03);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+}
+
+
 
 
 
