@@ -126,7 +126,7 @@ nav ul li a:hover {
 
 /* Hero Section */
 .hero {
-    background-image: url("Background.jpeg"), 
+    background-image: url("SoftwareDev.png"), 
                       linear-gradient(135deg, var(--primary), var(--secondary));
     background-size: cover;
     background-position: center;
@@ -405,6 +405,7 @@ footer {
     transform: scale(1.03);
     box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
 }
+
 
 
 
